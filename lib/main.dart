@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Product Detail Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.redAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: ProductDetailPage(
@@ -24,4 +24,4 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-}
+}g
